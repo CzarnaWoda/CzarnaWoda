@@ -3,8 +3,8 @@
 
 ### About me:
 
-- 🛠 &nbsp; I’m currently working with Angular, TypeScript, HTML, CSS(learning TailWindCSS), Java Spring Boot
-- 🚀 &nbsp; This year goals: React.js, vue.js, Spring Boot MicroServices
+- 🛠 &nbsp; I’m currently working with Spring Cloud, Microservices architecture, Eureka Netflix, Spring WebFlux, Kafka,  Resilience4j
+- 🚀 &nbsp; This year goals: Make a good app with microservices architecture, monolithic architecture
 - 👾 &nbsp; Fun fact: Redisson > Jedis 
 - 📫 &nbsp; Reach me out: kmimat299@gmail.com
 
