@@ -1,104 +1,110 @@
 ### CzarnaWoda  
 
-Backend engineer specializing in distributed systems & event-driven architecture 🚀
+Junior Backend Engineer with strong focus on **distributed systems**,  
+**event-driven architecture** and **real-time backend platforms** 🚀
+
+I build backend systems that handle **high concurrency**, require **data consistency**
+and must work reliably under continuous load.
 
 ---
 
-### 🔧 What you'll find in my repositories:
+### 🔧 What you'll find in my repositories
 
-**Backend Architecture & Patterns:**
+#### Backend Architecture & Design
 - **Spring Boot** ecosystem (Core, Data JPA, Security, Web, Modulith)
-- **Domain-Driven Design (DDD)** - bounded contexts, aggregates, domain models
-- **Event-Driven Architecture** - custom Event Bus with Java Reflection API
-- **Modular Monolith** architecture (migration path to microservices)
-- **Microservices** patterns - circuit breakers, load balancers, service discovery
-- Clean Architecture with proper layer separation (domain, application, infrastructure)
+- **Domain-Driven Design (DDD)** – bounded contexts, aggregates, rich domain models
+- **Event-Driven Architecture** – custom Event Bus (annotations + Reflection API)
+- **Modular Monolith** architecture with clear migration path to microservices
+- Clean Architecture with strict separation of domain, application and infrastructure layers
 
-**Distributed Systems & Synchronization:**
-- **Redis Pub/Sub** (Redisson) for cross-server real-time synchronization
-- Multi-server architectures handling 640-800+ concurrent users
+#### Distributed Systems & Real-Time Synchronization
+- **Redis Pub/Sub (Redisson)** for cross-node communication and state synchronization
+- Multi-node backend architectures handling **800–1000+ concurrent users**
+- Real-time event processing and consistency across servers
 - Distributed caching strategies
-- Connection pooling & resource management (HikariCP)
-- JVM performance tuning for production workloads
+- JVM performance tuning under sustained load
+- Connection pooling & resource management (**HikariCP**)
 
-**Databases & Persistence:**
-- **SQL:** PostgreSQL, MySQL (complex queries, transactions, indexing)
+#### Databases & Persistence
+- **SQL:** PostgreSQL, MySQL  
+  (transactions, indexing, performance-oriented queries)
 - **NoSQL:** MongoDB, Redis
-- **Polyglot persistence** - multiple databases in single architecture
+- **Polyglot persistence** – selecting databases based on use case
 - JPA/Hibernate with custom mappings
-- **MapStruct** for entity-DTO transformations
-- Database migrations & schema management
+- **MapStruct** for clean entity ↔ DTO transformations
+- Database migrations & schema evolution
 
-**API Development:**
+#### API Development
 - RESTful API design & implementation
-- **Swagger/OpenAPI** documentation
-- External API integration (government systems, third-party services)
-- API Gateway patterns
-- Request validation & error handling
+- **Swagger / OpenAPI** documentation
+- External API integrations (government systems, third-party services)
+- Request validation, error handling & API consistency
 
-**Security & Authentication:**
+#### Security & Authentication
 - **JWT** authentication with refresh tokens
-- Role-Based Access Control (RBAC)
-- Session management with logout mechanism
-- Password encryption & secure storage
-- GDPR/RODO compliance for healthcare data
+- Role-Based Access Control (**RBAC**)
+- Session lifecycle & logout mechanisms
+- Secure password storage & encryption
+- GDPR / RODO–aware data handling (healthcare-related systems)
 
-**Messaging & Integration:**
-- **RabbitMQ** for asynchronous event processing
-- Redis Pub/Sub for real-time updates
-- Custom Event Bus implementation (annotations + reflection)
-- Inter-module communication without tight coupling
+#### Messaging & Integration
+- **RabbitMQ** for asynchronous processing
+- Redis Pub/Sub for low-latency real-time updates
+- Event-based communication between modules without tight coupling
 
-**Frontend Integration:**
-- **Angular** applications with TypeScript
-- Reactive forms & state management
+#### Frontend Integration
+- **Angular + TypeScript**
 - REST API consumption
-- Component-based architecture
+- Reactive forms & component-based architecture
 
-**Testing & Quality:**
+#### Testing & Code Quality
 - Unit tests with **JUnit** & **Mockito**
 - Integration tests for multi-layer flows
-- Test coverage for critical business logic
-- Fail-fast validation (startup checks, not runtime errors)
+- Tests focused on **business logic**, not just coverage numbers
+- Fail-fast validation (detect problems at startup, not in production)
 
-**DevOps & Tools:**
-- **Docker** & **Docker Compose** for containerization
+#### DevOps & Tooling
+- **Docker** & **Docker Compose**
 - Maven for dependency management
-- Git version control & branching strategies
-- Development/production environment separation
-
-**Real-world Use Cases:**
-- Healthcare systems (telemedicine, e-prescriptions, appointment scheduling)
-- Educational platforms (grade management, multi-database setups)
-- Gaming infrastructure (high-concurrency servers, real-time sync)
-- E-commerce tools (shop management, API documentation)
-- Community platforms (Discord bots with JDA, ticket systems)
+- Git workflows & branching strategies
+- Separation of development and production environments
 
 ---
 
-### 💡 Technical Focus:
+### 🧩 Real-World Inspired Projects
 
-> **Redisson > Jedis** _(performance matters)_
+- Real-time backend platforms with **high concurrency**
+- Healthcare systems (telemedicine, e-prescriptions, appointments)
+- Educational platforms (grades, permissions, multi-database setups)
+- Gaming / real-time platforms (state synchronization, event processing)
+- Community tools (Discord bots, ticket systems, automation)
 
-- Scalable architectures that actually scale
+---
+
+### 💡 Technical Focus
+
+> **Redisson over Jedis** — because performance and reliability matter
+
+- Architectures that scale in practice, not only on diagrams
 - Event-driven design for loose coupling
-- Performance optimization (JVM, database, caching)
+- JVM, database and caching performance optimization
 - Clean code with meaningful abstractions
-- Tests that catch real bugs, not just increase coverage %
-- Documentation where it adds value
+- Documentation where it actually adds value
 
 ---
 
-### 📚 Resources:
+### 📚 Resources
 
-Check out **[Java-Kompendium-Wiedzy](https://github.com/CzarnaWoda/Java-Kompendium-Wiedzy-)** - practical Java patterns & knowledge base I maintain
+Check out **[Java-Kompendium-Wiedzy](https://github.com/CzarnaWoda/Java-Kompendium-Wiedzy-)**  
+A practical knowledge base with Java & backend patterns I actively maintain.
 
 ---
 
-### 📫 Contact:
+### 📫 Contact
 
-**kmimat299@gmail.com**  
-**Location:** Rzeszów, Poland  
-**Looking for:** Junior/Regular Backend Developer roles (Java/Spring ecosystem)
+📧 **kmimat299@gmail.com**  
+📍 **Rzeszów, Poland**  
+🔍 **Looking for:** Junior / Junior+ Backend Developer roles  
+(Java / Spring ecosystem)
 
 ---
