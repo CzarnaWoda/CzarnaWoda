@@ -1,23 +1,104 @@
 ### CzarnaWoda  
 
-### About me:  
+Backend engineer specializing in distributed systems & event-driven architecture 🚀
 
-- 🛠 &nbsp; I’m currently developing a medical clinic management application using **Spring Boot Modulith** and **Domain-Driven Design**.  
-- 🎨 &nbsp; On the frontend, I’m working with **Angular** to create an intuitive user experience.  
-- 🏥 &nbsp; The application simulates a complete clinic environment, including **patient records, appointment scheduling, doctor calendars, and visit management**. Doctors can **edit their availability**, and patients can **book, reschedule, and manage their visits** seamlessly.  
-- 🚀 &nbsp; My goal is to build a **scalable and modular** system that ensures smooth clinic operations.  
-- 👾 &nbsp; Fun fact: **Redisson > Jedis**  
-- 📫 &nbsp; Reach me out: **kmimat299@gmail.com**  
+---
 
-### Languages and Tools:  
-<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" alt="typescript"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="nodejs"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" alt="sql"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png" alt="java"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git"></code>
-<code><img height="27" src="https://user-images.githubusercontent.com/33158051/103925017-e7673b80-50e4-11eb-9379-ceb82e3f382c.png" alt="docker"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/images/logo@3x.png" alt="vscode"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/JonasGroeger/intellij-idea-community/master/logo-400.png" alt="intellij"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/github/explore/main/topics/spring/spring.png" alt="spring"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/github/explore/main/topics/angular/angular.png" alt="angular"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/github/explore/main/topics/redis/redis.png" alt="redis"></code>
+### 🔧 What you'll find in my repositories:
+
+**Backend Architecture & Patterns:**
+- **Spring Boot** ecosystem (Core, Data JPA, Security, Web, Modulith)
+- **Domain-Driven Design (DDD)** - bounded contexts, aggregates, domain models
+- **Event-Driven Architecture** - custom Event Bus with Java Reflection API
+- **Modular Monolith** architecture (migration path to microservices)
+- **Microservices** patterns - circuit breakers, load balancers, service discovery
+- Clean Architecture with proper layer separation (domain, application, infrastructure)
+
+**Distributed Systems & Synchronization:**
+- **Redis Pub/Sub** (Redisson) for cross-server real-time synchronization
+- Multi-server architectures handling 640-800+ concurrent users
+- Distributed caching strategies
+- Connection pooling & resource management (HikariCP)
+- JVM performance tuning for production workloads
+
+**Databases & Persistence:**
+- **SQL:** PostgreSQL, MySQL (complex queries, transactions, indexing)
+- **NoSQL:** MongoDB, Redis
+- **Polyglot persistence** - multiple databases in single architecture
+- JPA/Hibernate with custom mappings
+- **MapStruct** for entity-DTO transformations
+- Database migrations & schema management
+
+**API Development:**
+- RESTful API design & implementation
+- **Swagger/OpenAPI** documentation
+- External API integration (government systems, third-party services)
+- API Gateway patterns
+- Request validation & error handling
+
+**Security & Authentication:**
+- **JWT** authentication with refresh tokens
+- Role-Based Access Control (RBAC)
+- Session management with logout mechanism
+- Password encryption & secure storage
+- GDPR/RODO compliance for healthcare data
+
+**Messaging & Integration:**
+- **RabbitMQ** for asynchronous event processing
+- Redis Pub/Sub for real-time updates
+- Custom Event Bus implementation (annotations + reflection)
+- Inter-module communication without tight coupling
+
+**Frontend Integration:**
+- **Angular** applications with TypeScript
+- Reactive forms & state management
+- REST API consumption
+- Component-based architecture
+
+**Testing & Quality:**
+- Unit tests with **JUnit** & **Mockito**
+- Integration tests for multi-layer flows
+- Test coverage for critical business logic
+- Fail-fast validation (startup checks, not runtime errors)
+
+**DevOps & Tools:**
+- **Docker** & **Docker Compose** for containerization
+- Maven for dependency management
+- Git version control & branching strategies
+- Development/production environment separation
+
+**Real-world Use Cases:**
+- Healthcare systems (telemedicine, e-prescriptions, appointment scheduling)
+- Educational platforms (grade management, multi-database setups)
+- Gaming infrastructure (high-concurrency servers, real-time sync)
+- E-commerce tools (shop management, API documentation)
+- Community platforms (Discord bots with JDA, ticket systems)
+
+---
+
+### 💡 Technical Focus:
+
+> **Redisson > Jedis** _(performance matters)_
+
+- Scalable architectures that actually scale
+- Event-driven design for loose coupling
+- Performance optimization (JVM, database, caching)
+- Clean code with meaningful abstractions
+- Tests that catch real bugs, not just increase coverage %
+- Documentation where it adds value
+
+---
+
+### 📚 Resources:
+
+Check out **[Java-Kompendium-Wiedzy](https://github.com/CzarnaWoda/Java-Kompendium-Wiedzy-)** - practical Java patterns & knowledge base I maintain
+
+---
+
+### 📫 Contact:
+
+**kmimat299@gmail.com**  
+**Location:** Rzeszów, Poland  
+**Looking for:** Junior/Regular Backend Developer roles (Java/Spring ecosystem)
+
+---
