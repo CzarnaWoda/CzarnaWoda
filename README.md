@@ -23,7 +23,6 @@
 const mateusz = {
     location: "Rzeszów, Poland 🇵🇱",
     education: "Computer Science @ University of Rzeszów",
-    currentProject: "eMedicon - Telemedicine Platform (Thesis)",
     specialization: [
         "Spring Boot Modulith",
         "Domain-Driven Design", 
