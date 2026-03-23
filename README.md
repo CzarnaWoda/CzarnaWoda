@@ -98,7 +98,7 @@ Full-stack healthcare platform with patient portal, doctor interface, and admin 
 ```
 📊 Architecture: Spring Boot Modulith (Modular Monolith)
 🎯 Patterns: DDD + Event-Driven + Hexagonal
-💾 Databases: PostgreSQL (relational) + MongoDB (documents)  
+💾 Databases: PostgreSQL
 ⚡ Caching: Redis + Local caching strategies
 🔐 Security: JWT + OAuth2 + Multi-tier guards
 📱 Frontend: 3 Angular SPAs with NgRx state management
