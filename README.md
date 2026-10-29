@@ -1,243 +1,92 @@
-# <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> Hey, I'm Mateusz!
+**Backend Developer | Java, Spring Boot, Angular**
 
-<div align="center">
-
-```ascii
-╔══════════════════════════════════════════════════════════╗
-║  Backend Developer | Spring Boot | System Architecture   ║
-╚══════════════════════════════════════════════════════════╝
+```java
+public class Mateusz implements BackendDeveloper {
+ 
+    String role     = "Backend Developer";
+    String location = "Poland";
+ 
+    List<String> stack = List.of(
+        "Java", "Spring Boot", "Angular",
+        "PostgreSQL", "Redis", "Kafka", "Docker"
+    );
+ 
+    List<String> focus = List.of(
+        "Data synchronization",
+        "Event-driven architecture",
+        "API integrations",
+        "Authentication & security"
+    );
+ 
+    boolean available = true;
+ 
+    String contact() {
+        return "kmimat299@gmail.com";
+    }
+}
 ```
+## Stack
 
-**Building scalable systems** • **Distributed architecture enthusiast** • **Full-stack developer**
+**Backend**
 
-[![Email](https://img.shields.io/badge/Gmail-kmimat299@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kmimat299@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-CzarnaWoda-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CzarnaWoda)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Spring Modulith](https://img.shields.io/badge/Spring_Modulith-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![Spring Cloud](https://img.shields.io/badge/Spring_Cloud-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
 
-</div>
+**Authentication & security**
 
----
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![OAuth2](https://img.shields.io/badge/OAuth2-3C4043?style=flat-square)
+![Sessions](https://img.shields.io/badge/Sessions-3C4043?style=flat-square)
+![RBAC](https://img.shields.io/badge/RBAC-3C4043?style=flat-square)
 
-## 🎯 Quick Intro
+**Data & caching**
 
-```typescript
-const mateusz = {
-    location: "Rzeszów, Poland 🇵🇱",
-    education: "Computer Science @ University of Rzeszów",
-    specialization: [
-        "Spring Boot Modulith",
-        "Domain-Driven Design", 
-        "Event-Driven Architecture",
-        "Distributed Systems"
-    ],
-    funFact: "Redisson > Jedis",
-    passion: "Building scalable backend systems"
-};
-```
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
-## 🔥 Tech Arsenal
+**Messaging & integration**
 
-<table>
-<tr>
-<td valign="top" width="50%">
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
+![Redis Pub/Sub](https://img.shields.io/badge/Redis_Pub%2FSub-DC382D?style=flat-square&logo=redis&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-02569B?style=flat-square)
+![Webhooks](https://img.shields.io/badge/Webhooks-3C4043?style=flat-square)
 
-### Backend
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
+**Frontend**
 
-</td>
-<td valign="top" width="50%">
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![NgRx](https://img.shields.io/badge/NgRx-764ABC?style=flat-square&logo=redux&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
-### Frontend
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![NgRx](https://img.shields.io/badge/NgRx-764ABC?style=for-the-badge&logo=redux&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+**Infrastructure & tools**
 
-</td>
-</tr>
-<tr>
-<td valign="top">
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
 
-### Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![IntelliJ](https://img.shields.io/badge/IntelliJ-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
+**Architecture**
 
-</td>
-<td valign="top">
-
-### Deployment
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-</td>
-</tr>
-</table>
-
-### 🏗️ Architecture & Patterns
-![DDD](https://img.shields.io/badge/Domain_Driven_Design-FF6B6B?style=flat-square&logoColor=white)
-![Event-Driven](https://img.shields.io/badge/Event_Driven-4ECDC4?style=flat-square&logoColor=white)
-![Microservices](https://img.shields.io/badge/Microservices-95E1D3?style=flat-square&logoColor=white)
-![CQRS](https://img.shields.io/badge/CQRS-F38181?style=flat-square&logoColor=white)
-![Modulith](https://img.shields.io/badge/Spring_Modulith-6DB33F?style=flat-square&logoColor=white)
-![Hexagonal](https://img.shields.io/badge/Hexagonal-AA96DA?style=flat-square&logoColor=white)
-
-## 💼 Featured Projects
-
-### 🏥 [eMedicon - Telemedicine Platform](https://github.com/CzarnaWoda/emedicon)
-> **Engineering Thesis** | Spring Boot 3.4 • Angular 19 • PostgreSQL • MongoDB • Redis
-
-Full-stack healthcare platform with patient portal, doctor interface, and admin panel.
-
-```
-📊 Architecture: Spring Boot Modulith (Modular Monolith)
-🎯 Patterns: DDD + Event-Driven + Hexagonal
-💾 Databases: PostgreSQL
-⚡ Caching: Redis + Local caching strategies
-🔐 Security: JWT + OAuth2 + Multi-tier guards
-📱 Frontend: 3 Angular SPAs with NgRx state management
-🚀 Deployment: Docker multi-stage builds + Nginx
-```
-
-**Key Features:**
-- ✅ Online appointment booking with real-time availability
-- ✅ E-prescription system with verification codes
-- ✅ Digital sick leaves (L4) management
-- ✅ Smart doctor calendar with flexible scheduling
-- ✅ Admin dashboard with system-wide analytics
-
----
-
-### 🎮 [SPIGOT-SECTORS](https://github.com/CzarnaWoda/SPIGOT-SECTORS)
-> **Minecraft Sector System** | Java • Redis Pub/Sub • MySQL
-
-High-performance distributed system for Minecraft server handling **2000+ concurrent players**.
-
-```
-🌐 Architecture: Multi-sector distributed system
-🔄 Communication: Redis Pub/Sub for cross-sector messaging
-📈 Scale: 2000+ concurrent players at peak
-⚡ Performance: Custom packet handling and NBT management
-🛠️ Features: Sector synchronization, player data sync
-```
-
-### 📚 [iGrade - E-Dziennik](https://github.com/CzarnaWoda/iGrade-E-Dziennik)
-> **Electronic School Register** | Spring Boot • Microservices • PostgreSQL • MongoDB • MySQL
-
-Microservices-based electronic school register demonstrating **polyglot persistence** with multiple database systems.
-
-```
-🏗️ Architecture: Spring Cloud microservices with Eureka
-📊 Databases: PostgreSQL + MongoDB + MySQL (polyglot persistence)
-🔐 Security: JWT authentication + Spring Security
-⚡ Resilience: Circuit Breaker pattern (Resilience4j)
-🚀 Services: API Gateway, User Service, Grades, Notes, Classes
-🐳 Deployment: Docker Compose orchestration
-```
-
-**Technical Highlights:**
-- API Gateway with JWT-based authorization and routing
-- Service Discovery with Netflix Eureka Server
-- Synchronous inter-service communication
-- MongoDB for document-based notes storage
-- PostgreSQL for grades and class management
-- MySQL for user data persistence
-- Circuit Breaker for fault tolerance
-- Complete separation of concerns across microservices
-
-### ⚔️ [RPG-CORE](https://github.com/CzarnaWoda/RPG-CORE)
-> **RPG Server Plugin** | Java • Custom Game Mechanics
-
-Complete RPG system plugin for Minecraft servers.
-
-- 🎯 Custom RPG mechanics and gameplay systems
-- 🗡️ Advanced combat and skill systems
-- 📊 Player progression and stats management
-- 🔧 Modular architecture for easy customization
+![DDD](https://img.shields.io/badge/Domain--Driven_Design-37474F?style=flat-square)
+![Event-Driven](https://img.shields.io/badge/Event--Driven-37474F?style=flat-square)
+![Hexagonal](https://img.shields.io/badge/Hexagonal-37474F?style=flat-square)
+![CQRS](https://img.shields.io/badge/CQRS-37474F?style=flat-square)
+![Modular Monolith](https://img.shields.io/badge/Modular_Monolith-37474F?style=flat-square)
+![Microservices](https://img.shields.io/badge/Microservices-37474F?style=flat-square)
 
 
+## Contact
 
-## 😎 SUMMARY 
-
-<table>
-<tr>
-<td>
-
-**🔧 Backend Systems**
-- RESTful APIs
-- Distributed architectures  
-- Database optimization
-- Caching strategies
-- Event-driven systems
-
-</td>
-<td>
-
-**🏗️ System Design**
-- Modular monoliths
-- Microservices
-- Domain modeling
-- Scalability patterns
-- Clean architecture
-
-</td>
-<td>
-
-**🎮 Game Systems**
-- Plugin development
-- Server architectures
-- Real-time sync
-- Performance tuning
-- Custom mechanics
-
-</td>
-</tr>
-</table>
-
-## 🌱 Currently Exploring
-
-- 🏥 Advanced healthcare system architectures
-- ☁️ AWS Cloud services & deployment
-- 🚢 Kubernetes & container orchestration  
-- 📡 Spring Cloud microservices
-- 🎯 Service mesh architectures
-
-## 🏆 Highlights
-
-```diff
-+ Built telemedicine platform with 3 complete applications
-+ Architected distributed gaming system for 2000+ concurrent users
-+ Implemented DDD, Event-Driven, and Hexagonal patterns
-+ Full-stack developer (Spring Boot + Angular)
-+ Production-ready Docker deployments
-+ 5+ open-source Minecraft plugins with real-world usage
-```
-
-## 📫 Get in Touch
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Gmail-Say_Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kmimat299@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CzarnaWoda)
-
-**📧 kmimat299@gmail.com** • **📍 Rzeszów, Poland** • **💼 Open to Backend opportunities**
-
-</div>
-
----
-
-<div align="center">
-
-### 💭 *"Redisson > Jedis"*
-
-![Profile Views](https://komarev.com/ghpvc/?username=CzarnaWoda&color=70a5fd&style=flat-square&label=Profile+Views)
-
-⭐️ **Star my repos if you find them interesting!** ⭐️
-
-</div>
+[![Email](https://img.shields.io/badge/kmimat299@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:kmimat299@gmail.com)
+[![GitHub](https://img.shields.io/badge/CzarnaWoda-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/CzarnaWoda)
